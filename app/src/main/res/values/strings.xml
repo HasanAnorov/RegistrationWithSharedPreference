@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="enter_your_password_here">Enter your password here ...</string>
+    <string name="enter_your_email_here">Enter your email here ...</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="save">Save</string>
+    <string name="login">Login</string>
+</resources>
