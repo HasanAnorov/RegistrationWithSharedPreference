@@ -1,4 +1,4 @@
-package com.example.registration
+package com.example.registration.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -21,7 +21,7 @@ class Login : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.register.setOnClickListener {
-           val intent = Intent(this,Register::class.java)
+           val intent = Intent(this, Register::class.java)
             startActivity(intent)
             finish()
         }
@@ -40,7 +40,7 @@ class Login : AppCompatActivity() {
             //check user to existence
             for (i in 0 until userData.size){
                 if (binding.email.text.toString()==userData[i].email&&binding.password.text.toString()==userData[i].password){
-                    val intent = Intent(this,MainActivity::class.java)
+                    val intent = Intent(this, MainActivity::class.java)
                     intent.putExtra("email",binding.email.text.toString())
                     intent.putExtra("password",binding.password.text.toString())
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)

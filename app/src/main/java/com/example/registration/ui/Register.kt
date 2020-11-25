@@ -1,4 +1,4 @@
-package com.example.registration
+package com.example.registration.ui
 
 import android.content.Intent
 import android.os.Bundle
